@@ -1,0 +1,24 @@
+Compare two arrays and return a new array with any items only found in one of the two given arrays,
+but not both. In other words, return the symmetric difference of the two arrays.
+
+
+function arrayFilter(arrA,arrB) {
+  var newArr = [];
+  var temp;
+  for(var i=0; i<arrA.length; i++) {
+    temp = arrB.indexOf(arrA[i]);
+    if(temp == -1) {
+      newArr.push(arrA[i]);
+    }
+    
+  }
+  return newArr;
+}
+
+function diffArray(arr1, arr2) {
+  var newArr = [];
+  newArr = arrayFilter(arr1,arr2).concat(arrayFilter(arr2,arr1));
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
