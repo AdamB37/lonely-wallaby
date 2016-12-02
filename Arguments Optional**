@@ -10,3 +10,31 @@ var sumTwoAnd = addTogether(2);
 sumTwoAnd(3) returns 5.
 
 If either argument isn't a valid number, return undefined.
+
+
+function addTogether(num) {
+  if(arguments.length===2){
+    if(typeof(arguments[0])==='number'&&typeof(arguments[1])==='number'){
+      return arguments[0]+arguments[1];
+    }
+    else{
+      return undefined;
+    }
+  }
+  else if(arguments.length===1){
+    if(typeof(arguments[0])==='number'){
+     return function sumNums(x){
+       if(typeof(x)==='number'){
+         return num+x;
+       }
+       else{
+         return undefined;
+       }
+     };
+    }
+    
+  }
+}
+
+addTogether(2,3);
+
