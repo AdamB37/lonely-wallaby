@@ -4,7 +4,7 @@
 Complete the intermediate algorithm scripting section here:
 https://www.freecodecamp.com/map
 ## Specifications
-
+Complete all challenges.
 Listed in the link above
 ### Required
 
