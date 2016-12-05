@@ -4,8 +4,7 @@
 Complete the intermediate algorithm scripting section here:
 https://www.freecodecamp.com/map
 ## Specifications
-Complete all challenges.
-Listed in the link above
+Complete all challenges for Intermediate Algorithms. (21 Total)
 ### Required
 
 _Do not remove these specs - they are required for all goals_.
