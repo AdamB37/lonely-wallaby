@@ -4,7 +4,8 @@
 Complete the intermediate algorithm scripting section here:
 https://www.freecodecamp.com/map
 ## Specifications
-Complete all challenges for Intermediate Algorithms. (21 Total)
+Goal: Complete half of the challenges for Intermediate Algorithms. (21 Total)
+Stretch Goal: Finish all the challenges.
 ### Required
 
 _Do not remove these specs - they are required for all goals_.
